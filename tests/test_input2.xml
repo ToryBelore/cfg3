@@ -1,0 +1,30 @@
+<config>
+    <comment> Константа для геометрии</comment>
+    <constant name="pi">
+        <value>3.14159</value>
+    </constant>
+    <list>
+        <comment> Первый фильм</comment>
+        <dict>
+            <entry name="title">
+                <value>Inception</value>
+            </entry>
+            <entry name="year">
+                <value>2010</value>
+            </entry>
+        </dict>
+        <comment> Второй фильм</comment>
+        <dict>
+            <entry name="title">
+                <value>The Matrix</value>
+            </entry>
+            <entry name="year">
+                <value>1999</value>
+            </entry>
+        </dict>
+    </list>
+    <comment> Ошибочная константа</comment>
+    <constant name="incomplete">
+        <!-- Пропущен <value> -->
+    </constant>
+</config>

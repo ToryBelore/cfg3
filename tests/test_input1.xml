@@ -1,0 +1,25 @@
+<config>
+    <comment> Настройки сервера</comment>
+    <constant name="host">
+        <value>localhost</value>
+    </constant>
+    <constant name="port">
+        <value>8080</value>
+    </constant>
+    <dict>
+        <entry name="user">
+            <dict>
+                <entry name="username">
+                    <value>admin</value>
+                </entry>
+                <comment> Роли пользователя</comment>
+                <entry name="roles">
+                    <list>
+                        <value>admin</value>
+                        <value>user</value>
+                    </list>
+                </entry>
+            </dict>
+        </entry>
+    </dict>
+</config>

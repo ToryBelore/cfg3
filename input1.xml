@@ -1,0 +1,6 @@
+<config>
+    <comment>:: Тестовый комментарий</comment>
+    <constant name="test_constant">
+        <value>42</value>
+    </constant>
+</config>

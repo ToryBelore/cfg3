@@ -1,0 +1,16 @@
+:: Константа для геометрии
+pi <- 3.14159;
+(list 
+    :: Первый фильм
+    @{
+        title = Inception;
+        year = 2010;
+    } 
+    :: Второй фильм
+    @{
+        title = The Matrix;
+        year = 1999;
+    }
+)
+:: Ошибочная константа
+Error: Missing <value> for constant "incomplete".
